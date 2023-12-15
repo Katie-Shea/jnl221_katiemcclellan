@@ -1,7 +1,7 @@
 /*This is the CSS page for our final template.*/
 
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+	background-color: lightskyblue;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
@@ -11,35 +11,43 @@
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Georgia', serif;
-	background-color: #D8E1FF;
+	font-family: 'Libre Baskerville', serif;
 	color: black;
-	background-image: url(abortion_is_health_care.jpg),class(image);
+	background-image: url("abortion_health_care.jpeg");
 
 }
-
+/*
 .hero{
-	background-image: url(abortion_is_health_care.jpg);
-	opacity: .5;
+	background-image: url("abortion_health_care.jpeg");
+}*/
 
-}
-
-.image{
-	opacity: .5;
+figcaption {
+  background-color: white;
+  color: black;
+  font-style: italic;
+  text-align: left;
+  float: left;
 }
 
 p {
-	font-family: 'Times New Roman', serif;
+	font-family: 'Libre Baskerville', serif;
 	font-size: 20px;
 
 }
-h4 {
+
+h5{
 	font-style: italic;
-	font-size: 40px;
-	font-family: 'Georgia', serif;
+	font-size: 30px;
+	font-family: 'Libre Baskerville';
+}
+h4 {
+	font-style: ;
+	font-size: 35px;
+	font-family: 'Libre Baskerville', serif;
 }
 h3 {
 	font-size: 30px;
+	font-family: 'Libre Baskerville';
 }
 
 img{
@@ -49,11 +57,11 @@ img{
 
 }
 
-/*Don't worry about this section yet*/
+/*styles for small screens are here:*/
 @media only screen and (max-width: 767px)
 {
  .list {
- 	float: none;
+ 	float: left;
  	min-width: 90%;
  	margin-left: 10px;
  	margin-bottom: 30px;
@@ -63,4 +71,12 @@ img{
  	min-width: 90%;
  	margin-right: 10px;
  }
+ img{
+	float: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+ .footer p { 
+ 	background-color: hotpink;
 }
