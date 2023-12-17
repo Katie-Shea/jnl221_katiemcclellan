@@ -1,7 +1,7 @@
 /*This is the CSS page for our final template.*/
 
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: lightskyblue;
+	background-color: #457B9D;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
@@ -9,11 +9,12 @@
 .header {
 	height: auto;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 40px;
 	text-align: center;
 	font-family: 'Libre Baskerville', serif;
 	color: black;
-	background-image: url("abortion_health_care.jpeg");
+	p.solid {border-style: solid;} border-color: #457B9D;
+	background-image: url(abortion_health_care.jpeg);
 
 }
 /*
@@ -26,7 +27,15 @@ figcaption {
   color: black;
   font-style: italic;
   text-align: left;
-  float: left;
+  float: right;
+  margin-right: 5%;
+	margin-left: 5%;
+}
+
+figure{
+	float: right;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 p {
@@ -42,12 +51,21 @@ h5{
 }
 h4 {
 	font-style: ;
-	font-size: 35px;
+	font-size: 25px;
 	font-family: 'Libre Baskerville', serif;
+	color: #457B9D;
 }
 h3 {
 	font-size: 30px;
 	font-family: 'Libre Baskerville';
+	color: #457B9D;
+}
+
+h2 {
+	border: 2px;
+	border-color: #457B9D;
+	border-style: solid;
+
 }
 
 img{
@@ -55,6 +73,9 @@ img{
 	margin-right: 5%;
 	margin-left: 5%;
 
+}
+.list{
+	font-family: 'Libre Baskerville';
 }
 
 /*styles for small screens are here:*/
@@ -68,7 +89,7 @@ img{
  	margin-top: 30px;
  }
  iframe {
- 	min-width: 90%;
+ 	min-width: 50%;
  	margin-right: 10px;
  }
  img{
